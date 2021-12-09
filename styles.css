@@ -1,0 +1,7 @@
+.test{
+    width: 1000px;
+    height: 1000px;
+    background-color: aqua;
+    border: aqua 20px solid;
+    border-radius: 20px;
+}
