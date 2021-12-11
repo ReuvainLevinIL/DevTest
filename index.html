@@ -12,7 +12,6 @@
 
     <meta property="og:title" content="A Basic HTML5 Template">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.sitepoint.com/a-basic-html5-template/">
     <meta property="og:description" content="A simple HTML5 Template for new projects.">
     <meta property="og:image" content="image.png">
 
@@ -22,68 +21,90 @@
 
     <link rel="stylesheet" href="styles.css">
 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
 </head>
 
 <body>
-    <div class="main">
-        <div class="toolbar">
-            <div class="items-wrapper">      
-                <div class="logo tb-item">
-                    <img src="image.png" width="175px" height="75px"/>
+    <div class="container-fluid main">
+        <!-- <nav class="toolbar "> -->
+        <!-- <div class="toolbar row"> -->
+            <div class="row items-wrapper toolbar">  
+                <div class="col col-xl-3 col-lg-12">
+                    <div class="row">
+                        <div class="col col-1 col-sm-2 d-block d-xl-none text-center">
+                            <img class="toolbar-icon" src="menu-icon.png" width="40px" height="40px"/>
+                        </div>
+                        <div class="col col-10 col-sm-8 col-xl-12 text-xl-right text-center">
+                            <img src="image.png" width="175px" height="75px"/>
+                        </div>
+                        <div class="col col-1 col-sm-2  d-block d-xl-none text-center">
+                            <img class="toolbar-icon" src="search-icon.png" width="40px" height="40px"/>
+                        </div>
+                    </div>
+                    <!-- <div class=""> -->
+                        
+                    <!-- </div> -->
                 </div>
-                <div class="main-links tb-item">
-                    <div class="link">
-                        <span class="icon">
-                            <img src="icon-green.png" width="25px" height="25px"/>
-                        </span>
-                        <span class="text">Lorem</span>
-                    </div>
-                    <div class="link">
-                        <span class="icon">
-                            <img src="icon-purple.png" width="25px" height="25px"/>
-                        </span>
-                        <span class="text">Lorem</span>
-                    </div>            
-                    <div class="link">
-                        <span class="icon">
-                            <img src="icon-yellow.png" width="25px" height="25px"/>
-                        </span>
-                        <span class="text">Lorem</span>
-                    </div>            
-                    <div class="link">
-                        <span class="icon">
-                            <img src="icon-orange.png" width="25px" height="25px"/>
-                        </span>
-                        <span class="text">Lorem</span>
-                    </div>            
-                    <div class="link">
-                        <span class="icon">
-                            <img src="icon-blue.png" width="25px" height="25px"/>
-                        </span>
-                        <span class="text">Lorem</span>
+                <div class="col col-xl-6 text-center d-none d-xl-block">
+                    <div class="" style="display: inline; width: 520px;">
+                        <div class="link">
+                            <span class="icon">
+                                <img src="icon-green.png" width="25px" height="25px"/>
+                            </span>
+                            <span class="text">Lorem</span>
+                        </div>
+                        <div class="link">
+                            <span class="icon">
+                                <img src="icon-purple.png" width="25px" height="25px"/>
+                            </span>
+                            <span class="text">Lorem</span>
+                        </div>            
+                        <div class="link">
+                            <span class="icon">
+                                <img src="icon-yellow.png" width="25px" height="25px"/>
+                            </span>
+                            <span class="text">Lorem</span>
+                        </div>            
+                        <div class="link">
+                            <span class="icon">
+                                <img src="icon-orange.png" width="25px" height="25px"/>
+                            </span>
+                            <span class="text">Lorem</span>
+                        </div>            
+                        <div class="link">
+                            <span class="icon">
+                                <img src="icon-blue.png" width="25px" height="25px"/>
+                            </span>
+                            <span class="text">Lorem</span>
+                        </div>
                     </div>
                 </div>
-                <div class="settings tb-item">
-                    <div class="link">
-                        <span class="text">About</span>
-                    </div>
-                    <div class="link">
-                        <span class="text">Contact</span>
-                    </div>
-                    <div class="link subscribe">
-                        <span class="text">Subscribe</span>
+                <div class="col col-xl-3 d-none d-xl-block">
+                    <div class="tb-item">
+                        <div class="link">
+                            <span class="text">About</span>
+                        </div>
+                        <div class="link">
+                            <span class="text">Contact</span>
+                        </div>
+                        <div class="link subscribe">
+                            <span class="text">Subscribe</span>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-
-        <div class="main-content">
-            <div class="center-content">
-                <div class="error404">404</div>
-                <h4 class="error-subject">Oops! Page not found</h4>
-                <p class="error-text">Loer ipsum dummy text Loer ipsum dummy text Loer ipsum dummy tex Loer ipsum dummy tex Loer ipsum dummy texttt</p>
-            </div>
-            <div class="cards">
+        <!-- </div> -->
+        <!-- </nav> -->
+        <div class="row main-content">
+            <!-- <div class="row center-content text-center"> -->
+                <div class="col col-12 text-center">
+                    <div class="error404 text-center">404</div>
+                    <h4 class="error-subject text-center">Oops! Page not found</h4>
+                    <p class="error-text text-center">Loer ipsum dummy text Loer ipsum dummy text Loer ipsum dummy tex Loer ipsum dummy tex Loer ipsum dummy texttt</p>
+                </div>
+            <!-- </div> -->
+            <!-- <div class="row cards">
                 <div class="see-more">If you like the <span class="brand">Brand</span>, you will also like:</div>
                 <div class="card-wrapper">
                     <div class="card">
@@ -217,10 +238,12 @@
                 <div class="see-all">
 
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
-    <script src="js/scripts.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
 </html>
