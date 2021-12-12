@@ -6,11 +6,6 @@ div {
     font-family: sans-serif;
 }
   
-
-.main {
-    margin: 0!important;
-    padding: 0!important;
-}
 .toolbar{
     background-image: linear-gradient(#004A84, #00A3FF);
     background-repeat: no-repeat;
@@ -50,8 +45,6 @@ div {
     margin-left: 5px;
 }
 
-
-
 .subscribe {
     border: 1px solid white;
     padding: 6px;
@@ -86,7 +79,6 @@ div {
     font-size: 22px;
 }
 
-
 .center-content {
     min-height: 42%;
 }
@@ -109,10 +101,10 @@ div {
     margin-top: 18px;
     margin-bottom: 15px;
 }
+
 .brand {
     color: #004a84;
 }
-
 
 .brand-card {
     border-radius: .75rem;
@@ -125,12 +117,10 @@ div {
     background-color: white;
     padding: 0 0 8px 0;
 }
-
 .line1-icon {
     width: 20px;
     height: 20px;
 }
-
 .line1 {
     display: flex;
     align-items: center;
@@ -139,15 +129,12 @@ div {
     letter-spacing: 0.1em;
     height: 25px;
 }
-
 .card-icon {
     margin-left: 6px;
 }
-
 .line1stext {
     margin-left: 33px;
 }
-
 .line2 {
     background-color: #20385E;
     height: 55px;
@@ -156,11 +143,9 @@ div {
     width: 100%;
     margin: 0 auto;
 }
-
 .line2sub {
     margin: 0 auto;
 }
-
 .line3 {
     font-size: 10px;
     letter-spacing: 0.2em;
@@ -171,11 +156,9 @@ div {
     width: 100%;
     align-items: center;
 }
-
 .line3sub {
     margin: 0 auto;
 }
-
 .line4 {
     font-weight: 700;
     font-size: 14px;
@@ -197,7 +180,6 @@ div {
     font-size: 12px;
     height: 15px;
 }
-
 .line7 {
     background-color: #23B2F9;
     box-shadow: 0px 2px 3px rgb(0 0 0 / 15%);
@@ -208,8 +190,15 @@ div {
     font-size: 12px;
     color: white;
 }
-.see-all{
 
+.see-all-button {
+    display: inline;
+    background: linear-gradient(270deg, #1F91FB -7.35%, #27E9F5 109.02%);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+    border-radius: 50px;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+    padding: 10px 40px;
+    color: white;
 }
 
 
