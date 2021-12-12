@@ -1,3 +1,7 @@
+
+html,body{height:100%;}
+
+
 div {
     font-family: sans-serif;
 }
@@ -15,8 +19,6 @@ div {
 }
 
 .items-wrapper {
-    /* display: inline-flex;
-    margin: 0 auto; */
     align-items: center
 }
 
@@ -60,60 +62,49 @@ div {
     background-size: auto;
     background-image: url(background-image.png);
     text-align: center;
-    height: calc(100vh - 116px);
+    height: calc(100vh - 75px);
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 100px;
+}
+
+.error-main {
+    height: 53%;
 }
 
 .error404 {
-    font-size: 100px;
+    font-size: 75px;
     font-weight: 700;
-    font-family: sans-serif;
     color: #0460A9;
 }
 
 .error-subject {
     font-size: 32px;
-    font-family: sans-serif;
     font-weight: 700;
-    line-height: 32px;
 }
 
 .error-text {
     font-size: 22px;
-    font-family: sans-serif;
-    padding-left: 25px;
-    padding-right: 25px;
 }
 
-@media (max-width: 768px) { 
-    .error404 {
-        margin-bottom: 100px;
-    }
-}
 
 .center-content {
     min-height: 42%;
-    padding-top: 100px;
 }
 
 .cards {
     background-color: rgba(4, 96, 169, 0.2);
-    padding: 20px;
     text-align: center;
     align-items: center;
-    height: 45%;
+    height: 47%;
 }
 
 .card-wrapper {
     display: inline-flex;
-
+    padding-bottom: 2px;
 }
 
 .see-more {
     font-weight: 700;
-    font-family: sans-serif;
     font-size: 26px;
     margin-top: 18px;
     margin-bottom: 15px;
@@ -123,16 +114,16 @@ div {
 }
 
 
-.card {
+.brand-card {
+    border-radius: .75rem;
     margin-right: 20px;
-    width: 250px;
+    width: 200px;
     border-radius: 17px;
     box-shadow: 0px 1px 3px rgb(0 0 0 / 30%);
-    /* text-align: center; */
     display: flex;
     flex-direction: column;
     background-color: white;
-    padding: 0 0 10px 0;
+    padding: 0 0 8px 0;
 }
 
 .line1-icon {
@@ -145,9 +136,8 @@ div {
     align-items: center;
     text-align: center;
     font-size: 12px;
-    line-height: 8.5px;
     letter-spacing: 0.1em;
-    height: 30px;
+    height: 25px;
 }
 
 .card-icon {
@@ -155,12 +145,12 @@ div {
 }
 
 .line1stext {
-    margin-left: 50px;
+    margin-left: 33px;
 }
 
 .line2 {
     background-color: #20385E;
-    height: 80px;
+    height: 55px;
     display: flex;
     align-items: center;
     width: 100%;
@@ -175,7 +165,7 @@ div {
     font-size: 10px;
     letter-spacing: 0.2em;
     border-bottom: 1px solid #ECECEC;
-    height: 28px;
+    height: 25px;
     display: flex;
     margin: 0 auto;
     width: 100%;
@@ -189,32 +179,61 @@ div {
 .line4 {
     font-weight: 700;
     font-size: 14px;
-    height: 40px;
+    height: 35px;
     display: flex;
     align-items: center;
     margin: 0 auto;
 }
 .line5 {
-    font-size: 18px;
+    font-size: 14px;
     letter-spacing: -0.02em;
-    height: 40px;
+    height: 25px;
 }
 .line5sub {
-    color: #20385E;
+    color: #004a84;
+    font-weight: 600;
 }
 .line6 {
     font-size: 12px;
-    height: 30px;
+    height: 15px;
 }
 
 .line7 {
     background-color: #23B2F9;
     box-shadow: 0px 2px 3px rgb(0 0 0 / 15%);
-    height: 19px;
+    height: 25px;
     margin: 10px 10px 0 10px;
-    padding: 13px 10px 10px 10px;
     border-radius: 30px;
+    padding-top: 5px;
+    font-size: 12px;
+    color: white;
 }
 .see-all{
 
+}
+
+
+
+@media (max-width: 1250px) { 
+    .error-main {
+        height: 40%;
+    }
+    .cards {
+        height: 60%;
+    }
+    .error404 {
+        font-size: 50px;
+        padding: 25px 25px 15px 25px;
+    }
+    .error-subject {
+        font-size: 25px;
+    }
+    .error-text {
+        font-size: 12px;
+    }
+    .see-more {
+        font-size: 17px;
+        margin-top: 8px;
+        margin-bottom: 6px;
+    }
 }
