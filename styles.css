@@ -1,9 +1,7 @@
 
-html,body{height:100%;}
-
-
-div {
-    font-family: sans-serif;
+html,body{
+    height:100%;
+    font-family: sans-serif
 }
   
 .toolbar{
